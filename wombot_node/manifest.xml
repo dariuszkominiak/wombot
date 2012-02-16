@@ -1,0 +1,16 @@
+<package>
+  <description brief="wombot_node">
+
+     wombot_node
+
+  </description>
+  <author>tscott</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/wombot_node</url>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+

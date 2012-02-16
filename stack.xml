@@ -1,0 +1,10 @@
+<stack>
+  <description brief="wombot">wombot</description>
+  <author>Maintained by tscott</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/wombot</url>
+  <depend stack="ros" />
+  <depend stack="ros_comm" /> <!-- rospy, roscpp -->
+
+</stack>

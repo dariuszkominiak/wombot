@@ -1,0 +1,14 @@
+<package>
+  <description brief="wombot_msgs">
+
+     wombot_msgs
+
+  </description>
+  <author>tscott</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/wombot_msgs</url>
+
+</package>
+
+

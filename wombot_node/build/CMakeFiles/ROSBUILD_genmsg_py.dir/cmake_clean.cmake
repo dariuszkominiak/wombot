@@ -1,0 +1,14 @@
+FILE(REMOVE_RECURSE
+  "../msg_gen"
+  "../src/wombot_node/msg"
+  "../msg_gen"
+  "CMakeFiles/ROSBUILD_genmsg_py"
+  "../src/wombot_node/msg/__init__.py"
+  "../src/wombot_node/msg/_AckermannDriveStamped.py"
+  "../src/wombot_node/msg/_AckermannDrive.py"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang)
+  INCLUDE(CMakeFiles/ROSBUILD_genmsg_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)
