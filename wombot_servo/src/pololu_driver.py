@@ -57,11 +57,11 @@ class PololuDriver(object):
     def ShutdownCallback(self):
         rospy.loginfo("Shutting down")
         if hasattr(self, 'ser'):
-        self.ser.write(self.get_command(self._steering_servo_1,0))
-        self.ser.write(self.get_command(self._steering_servo_2,0))
-        self.ser.write(self.get_command(self._throttle_servo,0))
-        self.ser.write(chr(0xA2))
-        self.ser.close()
+            self.ser.write(self.get_command(self._steering_servo_1,0))
+            self.ser.write(self.get_command(self._steering_servo_2,0))
+            self.ser.write(self.get_command(self._throttle_servo,0))
+            self.ser.write(chr(0xA2))
+            self.ser.close()
     
     def SteeringCallback(self,data):
         if data.request == SteeringCommand.Degrees:
