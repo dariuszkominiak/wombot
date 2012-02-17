@@ -3,15 +3,9 @@ FILE(REMOVE_RECURSE
   "../src/wombot_msgs/msg"
   "../msg_gen"
   "CMakeFiles/ROSBUILD_genmsg_lisp"
-  "../msg_gen/lisp/AckermannDriveStamped.lisp"
+  "../msg_gen/lisp/WombotVehicle.lisp"
   "../msg_gen/lisp/_package.lisp"
-  "../msg_gen/lisp/_package_AckermannDriveStamped.lisp"
-  "../msg_gen/lisp/SteeringCommand.lisp"
-  "../msg_gen/lisp/_package.lisp"
-  "../msg_gen/lisp/_package_SteeringCommand.lisp"
-  "../msg_gen/lisp/AckermannDrive.lisp"
-  "../msg_gen/lisp/_package.lisp"
-  "../msg_gen/lisp/_package_AckermannDrive.lisp"
+  "../msg_gen/lisp/_package_WombotVehicle.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

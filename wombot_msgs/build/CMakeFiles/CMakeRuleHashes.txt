@@ -2,13 +2,16 @@
 c1e27035ac1f4a2ee182330930e09155 ../msg_gen/cpp/include/wombot_msgs/AckermannDrive.h
 8f3e369068eb50d8bd4ee468cd0706cd ../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h
 4ca8ca2d400f2dc90ea9eab1e106e287 ../msg_gen/cpp/include/wombot_msgs/SteeringCommand.h
+d478cf3259b2d586bd0474c3429d710d ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h
 a4d28a0f3f675fa35a0709f23355d4db ../msg_gen/lisp/AckermannDrive.lisp
 b4c57880107f51153df5b094a060cdbd ../msg_gen/lisp/AckermannDriveStamped.lisp
 f115260972fbb3a681b343384062113e ../msg_gen/lisp/SteeringCommand.lisp
+c4373ce485d31a9d9f704ac380034bdd ../msg_gen/lisp/WombotVehicle.lisp
 76968e092419a28251dac869496a85d7 ../src/wombot_msgs/msg/_AckermannDrive.py
 2b17a52c93e64e3e35e2c19afc19ae8f ../src/wombot_msgs/msg/_AckermannDriveStamped.py
 ff8285ea2748fbc2b82f9db83b4ad5bd ../src/wombot_msgs/msg/_SteeringCommand.py
-0b0d24b95033be6b5663699e9d7cabe4 ../src/wombot_msgs/msg/__init__.py
+d3d0979ece0579c08a25f3959836eb7e ../src/wombot_msgs/msg/_WombotVehicle.py
+48c2447b18f9c2f00cf1200d440fa973 ../src/wombot_msgs/msg/__init__.py
 05b8218dd615477c8d91eb42ba156d49 CMakeFiles/ROSBUILD_genmsg_cpp
 05b8218dd615477c8d91eb42ba156d49 CMakeFiles/ROSBUILD_genmsg_lisp
 05b8218dd615477c8d91eb42ba156d49 CMakeFiles/ROSBUILD_genmsg_py

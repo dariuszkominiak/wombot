@@ -3,9 +3,7 @@ FILE(REMOVE_RECURSE
   "../src/wombot_msgs/msg"
   "../msg_gen"
   "CMakeFiles/ROSBUILD_genmsg_cpp"
-  "../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h"
-  "../msg_gen/cpp/include/wombot_msgs/SteeringCommand.h"
-  "../msg_gen/cpp/include/wombot_msgs/AckermannDrive.h"
+  "../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -39,41 +39,18 @@ CMAKE_BINARY_DIR = /home/tscott/ros/wombot/wombot_msgs/build
 
 # Utility rule file for ROSBUILD_genmsg_cpp.
 
-CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h
-CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/SteeringCommand.h
-CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/AckermannDrive.h
+CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h
 
-../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h: ../msg/AckermannDriveStamped.msg
-../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
-../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
-../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h: ../msg/AckermannDrive.msg
-../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg/Header.msg
-../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h: ../manifest.xml
+../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h: ../msg/WombotVehicle.msg
+../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
+../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h: ../manifest.xml
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/tscott/ros/wombot/wombot_msgs/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h"
-	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/tscott/ros/wombot/wombot_msgs/msg/AckermannDriveStamped.msg
-
-../msg_gen/cpp/include/wombot_msgs/SteeringCommand.h: ../msg/SteeringCommand.msg
-../msg_gen/cpp/include/wombot_msgs/SteeringCommand.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
-../msg_gen/cpp/include/wombot_msgs/SteeringCommand.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
-../msg_gen/cpp/include/wombot_msgs/SteeringCommand.h: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg/Header.msg
-../msg_gen/cpp/include/wombot_msgs/SteeringCommand.h: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/tscott/ros/wombot/wombot_msgs/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/wombot_msgs/SteeringCommand.h"
-	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/tscott/ros/wombot/wombot_msgs/msg/SteeringCommand.msg
-
-../msg_gen/cpp/include/wombot_msgs/AckermannDrive.h: ../msg/AckermannDrive.msg
-../msg_gen/cpp/include/wombot_msgs/AckermannDrive.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
-../msg_gen/cpp/include/wombot_msgs/AckermannDrive.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
-../msg_gen/cpp/include/wombot_msgs/AckermannDrive.h: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/tscott/ros/wombot/wombot_msgs/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/wombot_msgs/AckermannDrive.h"
-	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/tscott/ros/wombot/wombot_msgs/msg/AckermannDrive.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h"
+	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/tscott/ros/wombot/wombot_msgs/msg/WombotVehicle.msg
 
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp
-ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/AckermannDriveStamped.h
-ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/SteeringCommand.h
-ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/AckermannDrive.h
+ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp.dir/build.make
 .PHONY : ROSBUILD_genmsg_cpp
 

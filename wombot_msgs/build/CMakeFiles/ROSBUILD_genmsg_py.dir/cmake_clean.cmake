@@ -4,9 +4,7 @@ FILE(REMOVE_RECURSE
   "../msg_gen"
   "CMakeFiles/ROSBUILD_genmsg_py"
   "../src/wombot_msgs/msg/__init__.py"
-  "../src/wombot_msgs/msg/_AckermannDriveStamped.py"
-  "../src/wombot_msgs/msg/_SteeringCommand.py"
-  "../src/wombot_msgs/msg/_AckermannDrive.py"
+  "../src/wombot_msgs/msg/_WombotVehicle.py"
 )
 
 # Per-language clean rules from dependency scanning.
