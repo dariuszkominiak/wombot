@@ -4,6 +4,7 @@ FILE(REMOVE_RECURSE
   "../msg_gen"
   "CMakeFiles/ROSBUILD_genmsg_py"
   "../src/wombot_msgs/msg/__init__.py"
+  "../src/wombot_msgs/msg/_DrivetrainCommand.py"
   "../src/wombot_msgs/msg/_WombotVehicle.py"
 )
 

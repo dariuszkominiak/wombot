@@ -1,0 +1,18 @@
+<package>
+  <description brief="wombot_teleop">
+
+     wombot_teleop
+
+  </description>
+  <author>tscott</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/wombot_teleop</url>
+  <depend package="rospy"/>
+  <depend package="art_msgs"/>
+  <depend package="wombot_msgs"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+

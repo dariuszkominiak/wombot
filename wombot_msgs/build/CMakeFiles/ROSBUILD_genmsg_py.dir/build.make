@@ -41,21 +41,32 @@ CMAKE_BINARY_DIR = /home/tscott/ros/wombot/wombot_msgs/build
 
 CMakeFiles/ROSBUILD_genmsg_py: ../src/wombot_msgs/msg/__init__.py
 
+../src/wombot_msgs/msg/__init__.py: ../src/wombot_msgs/msg/_DrivetrainCommand.py
 ../src/wombot_msgs/msg/__init__.py: ../src/wombot_msgs/msg/_WombotVehicle.py
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/tscott/ros/wombot/wombot_msgs/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/wombot_msgs/msg/__init__.py"
-	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --initpy /home/tscott/ros/wombot/wombot_msgs/msg/WombotVehicle.msg
+	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --initpy /home/tscott/ros/wombot/wombot_msgs/msg/DrivetrainCommand.msg /home/tscott/ros/wombot/wombot_msgs/msg/WombotVehicle.msg
+
+../src/wombot_msgs/msg/_DrivetrainCommand.py: ../msg/DrivetrainCommand.msg
+../src/wombot_msgs/msg/_DrivetrainCommand.py: /opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
+../src/wombot_msgs/msg/_DrivetrainCommand.py: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../src/wombot_msgs/msg/_DrivetrainCommand.py: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg/Header.msg
+../src/wombot_msgs/msg/_DrivetrainCommand.py: ../manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tscott/ros/wombot/wombot_msgs/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/wombot_msgs/msg/_DrivetrainCommand.py"
+	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/tscott/ros/wombot/wombot_msgs/msg/DrivetrainCommand.msg
 
 ../src/wombot_msgs/msg/_WombotVehicle.py: ../msg/WombotVehicle.msg
 ../src/wombot_msgs/msg/_WombotVehicle.py: /opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py
 ../src/wombot_msgs/msg/_WombotVehicle.py: /opt/ros/electric/ros/core/roslib/scripts/gendeps
 ../src/wombot_msgs/msg/_WombotVehicle.py: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/tscott/ros/wombot/wombot_msgs/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tscott/ros/wombot/wombot_msgs/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/wombot_msgs/msg/_WombotVehicle.py"
 	/opt/ros/electric/stacks/ros_comm/clients/rospy/scripts/genmsg_py.py --noinitpy /home/tscott/ros/wombot/wombot_msgs/msg/WombotVehicle.msg
 
 ROSBUILD_genmsg_py: CMakeFiles/ROSBUILD_genmsg_py
 ROSBUILD_genmsg_py: ../src/wombot_msgs/msg/__init__.py
+ROSBUILD_genmsg_py: ../src/wombot_msgs/msg/_DrivetrainCommand.py
 ROSBUILD_genmsg_py: ../src/wombot_msgs/msg/_WombotVehicle.py
 ROSBUILD_genmsg_py: CMakeFiles/ROSBUILD_genmsg_py.dir/build.make
 .PHONY : ROSBUILD_genmsg_py

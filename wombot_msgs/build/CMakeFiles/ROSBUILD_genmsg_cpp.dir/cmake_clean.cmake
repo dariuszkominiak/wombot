@@ -3,6 +3,7 @@ FILE(REMOVE_RECURSE
   "../src/wombot_msgs/msg"
   "../msg_gen"
   "CMakeFiles/ROSBUILD_genmsg_cpp"
+  "../msg_gen/cpp/include/wombot_msgs/DrivetrainCommand.h"
   "../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h"
 )
 

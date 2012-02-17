@@ -39,17 +39,28 @@ CMAKE_BINARY_DIR = /home/tscott/ros/wombot/wombot_msgs/build
 
 # Utility rule file for ROSBUILD_genmsg_cpp.
 
+CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/DrivetrainCommand.h
 CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h
+
+../msg_gen/cpp/include/wombot_msgs/DrivetrainCommand.h: ../msg/DrivetrainCommand.msg
+../msg_gen/cpp/include/wombot_msgs/DrivetrainCommand.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
+../msg_gen/cpp/include/wombot_msgs/DrivetrainCommand.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
+../msg_gen/cpp/include/wombot_msgs/DrivetrainCommand.h: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg/Header.msg
+../msg_gen/cpp/include/wombot_msgs/DrivetrainCommand.h: ../manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tscott/ros/wombot/wombot_msgs/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/wombot_msgs/DrivetrainCommand.h"
+	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/tscott/ros/wombot/wombot_msgs/msg/DrivetrainCommand.msg
 
 ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h: ../msg/WombotVehicle.msg
 ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py
 ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h: /opt/ros/electric/ros/core/roslib/scripts/gendeps
 ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/tscott/ros/wombot/wombot_msgs/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tscott/ros/wombot/wombot_msgs/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h"
 	/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/scripts/genmsg_cpp.py /home/tscott/ros/wombot/wombot_msgs/msg/WombotVehicle.msg
 
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp
+ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/DrivetrainCommand.h
 ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/wombot_msgs/WombotVehicle.h
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp.dir/build.make
 .PHONY : ROSBUILD_genmsg_cpp
