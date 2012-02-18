@@ -1,0 +1,22 @@
+<launch>
+  <node name="pololu_driver" pkg="wombot_servo" type="pololu_driver.py">
+  </node>
+
+  <node name="uvc_cam" pkg="uvc_cam2" type="sender" output="log">
+    <param name="D" type="string" value="-0.0834232 0.120545 -0.0023918 0.0175383 0 "/>
+    <param name="K" type="string" value="578.252 0 350.204 0 575.115 207.606 0 0 1 "/>
+    <param name="R" type="string" value="1 0 0 0 1 0 0 0 1 "/>
+    <param name="P" type="string" value="578.252 0 350.204 0 0 575.115 207.606 0 0 0 1 0 "/>
+    <param name="device" type="string" value="/dev/video1"/>
+    <param name="width"  type="int" value="320"/>
+    <param name="height" type="int" value="240"/>
+    <param name="fps" type="int" value="5"/>
+  </node>
+
+  <node name="camera_calibration" pkg="camera_calibration" type="cameracalibrator.py" respawn="false" output="screen">
+    <remap from="image" to="/camera/image_raw"/>
+    <param name="size" value="5x4" />
+    <param name="square" value="0.02464" />
+  </node>
+
+</launch>
