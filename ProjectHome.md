@@ -1,0 +1,1 @@
+This is a ROS stack for the Wombot autonomous robot being created for my Honours research project.
